@@ -2,7 +2,7 @@ using './main.bicep'
 
 param environmentName = readEnvironmentVariable('AZURE_ENV_NAME', 'MY_ENV')
 
-param location = readEnvironmentVariable('AZURE_LOCATION', 'centralus')
+param location = readEnvironmentVariable('AZURE_LOCATION', 'eastus')
 
 param principalId = readEnvironmentVariable('AZURE_PRINCIPAL_ID', '')
 param principalType = readEnvironmentVariable('AZURE_PRINCIPAL_TYPE', 'User')
