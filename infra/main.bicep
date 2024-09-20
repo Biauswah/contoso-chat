@@ -91,7 +91,7 @@ module ai 'core/host/ai-environment.bicep' = {
       : '${abbrs.storageStorageAccounts}${resourceToken}'
     openAiName: !empty(openAiName) ? openAiName : 'aoai-${resourceToken}'
     openAiModelDeployments: openAiModelDeployments
-    searchName: !empty(searchServiceName) ? searchServiceName : 'srch-${resourceToken}'
+    searchName: !empty(searchServiceName) ? searchServiceName : 'srch-temp-${resourceToken}'
   }
 }
 
