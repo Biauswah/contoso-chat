@@ -10,7 +10,7 @@ param kind string = 'OpenAI'
 @allowed([ 'Enabled', 'Disabled' ])
 param publicNetworkAccess string = 'Enabled'
 param sku object = {
-  name: 'S'
+  name: 'S0'
 }
 
 param allowedIpRules array = []
